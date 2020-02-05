@@ -1,2 +1,3 @@
 # cf-context
-A tool that lets work on multiple targets through the Cloud Foundry CLI.
+
+A tool that makes working with the CF CLI and multiple targets a little easier.
