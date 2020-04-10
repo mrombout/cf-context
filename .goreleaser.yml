@@ -1,0 +1,17 @@
+before:
+  hooks:
+    - go mod download
+builds:
+- main: ./cmd/cf-context/main.go
+  goos:
+  - windows
+  - darwin
+  - linux
+  env:
+  - CGO_ENABLED=0
+checksum:
+  name_template: 'checksums.txt'
+release:
+  draft: true
+changelog:
+  skip: true
