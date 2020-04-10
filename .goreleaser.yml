@@ -15,3 +15,10 @@ release:
   draft: true
 changelog:
   skip: true
+brews:
+  - github:
+      owner: mrombout
+      name: homebrew-cf-context
+    commit_author:
+      name: Mike Rombout
+      email: mike.rombout1@gmail.com
