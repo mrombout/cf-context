@@ -15,8 +15,7 @@ Download the release for your operating system from the [Releases](https://githu
 Add [homebrew-cf-context](https://github.com/mrombout/homebrew-cf-context/) as a third-party tap and install `cf-context`.
 
 ```
-$ brew tap mrombout/homebrew-cf-context
-$ brew install cf-context
+$ brew install mrombout/cf-context/cf-context
 ```
 
 ## Usage
